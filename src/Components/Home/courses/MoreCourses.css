@@ -1,0 +1,53 @@
+.containerMoreCourses{
+    display: flex;
+    margin: 0 0 10%;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.blockCourse{
+    width: 48%;
+}
+.titleBlockCourse{
+    font-weight: 600;
+}
+.container1{
+    background-color: #CDCDCD;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: 600;
+    border-radius: 20px;
+    height: 100%;
+}
+.container1>p{
+    color: #333333;
+    background-color: #CDCDCD;
+}
+
+.container2{
+    background-color: #F7DB07;
+    display: flex;
+    padding: 3%;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+    height: 100%;
+}
+.blockText{
+    background-color: #F7DB07;
+    width: 45%;
+    line-height: 1;
+    text-align: revert;
+    padding: 1%;
+}
+.blockText>p,.blockText>h3{
+    color: #333333;
+    background-color: #F7DB07;
+}
+
+.blockImg{
+    background: #333333;
+    width: 55%;
+    height: 90%;
+    border-radius: 15px;
+}

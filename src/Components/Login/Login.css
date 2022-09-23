@@ -1,0 +1,74 @@
+.containerLogin{
+    display:flex;
+}
+.containerLogin__form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.divTitle{
+    margin: 8% 0;
+    padding: 5% 4%;
+}
+
+#titleh1{
+    font-style: italic;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.login__inputs{
+    border-radius: 25px;
+    padding: 3%;
+    margin: 3%;
+    width: 90%;
+    border: 1px solid;
+}
+
+.login__inputs::placeholder{
+    font-style: italic;
+}
+
+.checkbox-Login{
+  
+    background-color: #333333;
+    border: 1px solid #F7DB07;
+}
+
+.label-check{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.buttonLogin{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.submitButton{
+    padding: 2%;
+    border: #cdcdcd;
+    width: 15%;
+    display: flex;
+    border-bottom: 2px solid;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+.divImg{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gifLogin{
+    width: 70%;
+}

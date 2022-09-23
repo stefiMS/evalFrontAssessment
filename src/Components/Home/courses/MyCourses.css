@@ -1,0 +1,45 @@
+.containerCourses{
+    width:100%;
+    display: flex;
+}
+.containerCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.courseCard{
+    border: 8px solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    text-align: center;
+}
+.addCourse{
+    width: 15px;
+    margin-right: -150px;
+    margin-top: -30px;
+
+}
+
+.titleCard{
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+}
+.iconCard{
+    width: 80%;
+    margin: 15px;
+}
+
+.nextCourses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#arrowRight{
+    width: 60%;
+}

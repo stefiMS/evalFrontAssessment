@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+#logotipo{
+    width:18%
+}
+
+#iconProfile{
+    width:3%
+}
+
+.navHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1% 5%;
+}
+
+.navHome>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+.optionNav{
+    cursor: pointer;
+}
+#inputSearch{
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 1%;
+    width: 40%;
+}
+#inputSearch::placeholder{
+    background-image: url(../../assets/iconSearch.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right  ; 
+}
